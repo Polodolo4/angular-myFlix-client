@@ -1,0 +1,30 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$buttonColor: #8d4c4c;
+
+.genre-dialog {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: $buttonColor;
+}
+
+.genre-name {
+  display: flex;
+  justify-content: center;
+  color: $text;
+}
+
+.genre-description {
+  color: $text;
+}
+
+.genre-close {
+  background-color: $boxColor;
+}
+
+.genre-actions {
+  display: flex;
+  justify-content: space-evenly;
+}

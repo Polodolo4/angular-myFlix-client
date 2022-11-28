@@ -1,0 +1,30 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$buttonColor: #8d4c4c;
+
+.director-dialog {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: $buttonColor;
+}
+
+.director-name {
+  display: flex;
+  justify-content: center;
+  color: $text;
+}
+
+.director-bio {
+  color: $text;
+}
+
+.director-close {
+  background-color: $boxColor;
+}
+
+.director-actions {
+  display: flex;
+  justify-content: space-evenly;
+}

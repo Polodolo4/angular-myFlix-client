@@ -1,0 +1,30 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$buttonColor: #8d4c4c;
+
+.summary-dialog {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: $buttonColor;
+}
+
+.movie-title {
+  display: flex;
+  justify-content: center;
+  color: $text;
+}
+
+.movie-summary {
+  color: $text;
+}
+
+.summary-close {
+  background-color: $boxColor;
+}
+
+.summary-actions {
+  display: flex;
+  justify-content: space-evenly;
+}
