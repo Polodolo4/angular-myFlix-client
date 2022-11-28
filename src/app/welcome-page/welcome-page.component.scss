@@ -1,0 +1,31 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$buttonColor: #8d4c4c;
+
+.welcome-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: $bgColor;
+  box-sizing: border-box;
+}
+
+.welcome-card {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: $buttonColor;
+}
+
+.welcome-header {
+  display: flex;
+  justify-content: center;
+  color: $text;
+}
+
+.register {
+  background-color: $boxColor;
+}

@@ -1,0 +1,30 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$buttonColor: #8d4c4c;
+
+.login-card {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: $buttonColor;
+}
+
+.login-header {
+  display: flex;
+  justify-content: center;
+  color: $text;
+}
+
+.login-field {
+  color: $text;
+}
+
+.login-button {
+  background-color: $boxColor;
+}
+
+.login-actions {
+  display: flex;
+  justify-content: space-evenly;
+}
