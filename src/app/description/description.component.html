@@ -1,0 +1,17 @@
+<mat-card class="summary-dialog">
+    <mat-card-title class="movie-title"><b>{{ data.Title }}</b></mat-card-title>
+    <br />
+    <mat-dialog-content class="movie-summary">
+      <b>Summary:</b>{{ data.Description }}
+    </mat-dialog-content>
+    <mat-card-actions class="summary-actions">
+      <button
+        class="summary-close"
+        mat-raised-button
+        mat-dialog-close
+        color="warn"
+      >
+        Close Window
+      </button>
+    </mat-card-actions>
+  </mat-card>

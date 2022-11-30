@@ -3,20 +3,7 @@ $text: #fff;
 $boxColor: #000;
 $secondColor: #8d4c4c;
 
-.welcome-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px 40px;
-  background-color: $bgColor;
-  box-sizing: border-box;
-  border-style: solid;
-  border-color: $boxColor;
-  border-width: 5px;
-}
-
-.welcome-card {
+.genre-dialog {
   max-width: 400px;
   margin: auto;
   padding: 25px;
@@ -26,12 +13,22 @@ $secondColor: #8d4c4c;
   border-width: 5px;
 }
 
-.welcome-header {
+.genre-name {
   display: flex;
   justify-content: center;
   color: $text;
 }
 
-.register {
+.genre-description {
+  color: $text;
+}
+
+.genre-close {
   background-color: $boxColor;
+}
+
+.genre-actions {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }

@@ -1,0 +1,19 @@
+<div class="genre-page">
+<mat-card class="genre-dialog">
+    <mat-card-title class="genre-name"><b>{{ data.Name }}</b></mat-card-title>
+    <br />
+    <mat-dialog-content class="genre-description">
+      <b>Description:</b>{{ data.Description }}
+    </mat-dialog-content>
+    <mat-card-actions class="genre-actions">
+      <button
+        class="genre-close"
+        mat-raised-button
+        mat-dialog-close
+        color="warn"
+      >
+        Close Window
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

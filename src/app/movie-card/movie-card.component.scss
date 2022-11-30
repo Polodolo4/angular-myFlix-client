@@ -1,0 +1,75 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$secondColor: #8d4c4c;
+
+.movie-page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  background-color: $bgColor;
+  border-style: solid;
+  border-color: $boxColor;
+  border-top-width: 0px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-bottom-width: 5px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
+  background-color: $secondColor;
+  max-width: 320px;
+  width: 320px;
+  margin: 15px;
+  padding: 20px 5px;
+}
+
+.mat-card-header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  color: $text;
+}
+
+.movie-card-title {
+  display: flex;
+  max-width: 230px;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  width: 280px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.mat-card-actions {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movie-button {
+  background-color: $boxColor;
+  color: $text;
+}
+
+.fav-button {
+  transform: scale(1.4);
+  position: absolute;
+  left: 1px;
+  top: 10px;
+  color: $boxColor;
+}

@@ -3,7 +3,7 @@ $text: #fff;
 $boxColor: #000;
 $secondColor: #8d4c4c;
 
-.welcome-page {
+.profile-page {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ $secondColor: #8d4c4c;
   border-width: 5px;
 }
 
-.welcome-card {
+.profile-card {
   max-width: 400px;
   margin: auto;
   padding: 25px;
@@ -26,12 +26,13 @@ $secondColor: #8d4c4c;
   border-width: 5px;
 }
 
-.welcome-header {
+.profile-header {
   display: flex;
   justify-content: center;
   color: $text;
 }
 
-.register {
+.edit {
   background-color: $boxColor;
+  color: $text;
 }

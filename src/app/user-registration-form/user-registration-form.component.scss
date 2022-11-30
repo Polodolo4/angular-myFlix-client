@@ -1,0 +1,33 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$secondColor: #8d4c4c;
+
+.register-card {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: $secondColor;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
+}
+
+.register-header {
+  display: flex;
+  justify-content: center;
+  color: $text;
+}
+
+.register-field {
+  color: $text;
+}
+
+.register-button {
+  background-color: $boxColor;
+}
+
+.register-actions {
+  display: flex;
+  justify-content: space-evenly;
+}

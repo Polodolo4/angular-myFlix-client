@@ -1,0 +1,17 @@
+<mat-card class="director-dialog">
+    <mat-card-title class="director-name"><b>{{ data.Name }}</b></mat-card-title>
+    <br />
+    <mat-dialog-content class="director-bio">
+      <b>Bio:</b>{{ data.Bio }}
+    </mat-dialog-content>
+    <mat-card-actions class="director-actions">
+      <button
+        class="director-close"
+        mat-raised-button
+        mat-dialog-close
+        color="warn"
+      >
+        Close Window
+      </button>
+    </mat-card-actions>
+  </mat-card>
