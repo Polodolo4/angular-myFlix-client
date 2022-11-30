@@ -1,7 +1,7 @@
 $bgColor: #af0624;
 $text: #fff;
 $boxColor: #000;
-$buttonColor: #8d4c4c;
+$secondColor: #8d4c4c;
 
 .welcome-page {
   height: 100vh;
@@ -11,13 +11,19 @@ $buttonColor: #8d4c4c;
   padding: 30px 40px;
   background-color: $bgColor;
   box-sizing: border-box;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
 }
 
 .welcome-card {
   max-width: 400px;
   margin: auto;
   padding: 25px;
-  background-color: $buttonColor;
+  background-color: $secondColor;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
 }
 
 .welcome-header {

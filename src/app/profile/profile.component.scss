@@ -1,0 +1,38 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$secondColor: #8d4c4c;
+
+.profile-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: $bgColor;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
+}
+
+.profile-card {
+  max-width: 400px;
+  margin: auto;
+  padding: 25px;
+  background-color: $secondColor;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: center;
+  color: $text;
+}
+
+.edit {
+  background-color: $boxColor;
+  color: $text;
+}

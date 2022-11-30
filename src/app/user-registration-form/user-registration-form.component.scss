@@ -1,13 +1,16 @@
 $bgColor: #af0624;
 $text: #fff;
 $boxColor: #000;
-$buttonColor: #8d4c4c;
+$secondColor: #8d4c4c;
 
 .register-card {
   max-width: 400px;
   margin: auto;
   padding: 25px;
-  background-color: $buttonColor;
+  background-color: $secondColor;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
 }
 
 .register-header {

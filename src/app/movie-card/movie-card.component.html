@@ -1,14 +1,12 @@
 <app-navbar></app-navbar>
-<div style="display: flex;">
-    <mat-card *ngFor="let movie of movies;" style="flex: 1 1 auto;">
+<div class="movie-page" style="display: flex;">
+    <mat-card class="movie-card" *ngFor="let movie of movies;" style="flex: 1 1 auto;">
         <mat-card-header>
-        <mat-card-title class="movie-card-title">{{movie.Title}}</mat-card-title>
+        <mat-card-title class="movie-card-title"><b>{{movie.Title}}</b></mat-card-title>
         </mat-card-header>
         <img 
         src="https://brett-flix.herokuapp.com/{{movie.ImagePath}}" 
         alt= "{{movie.Title}}" 
-        width="350"
-        height="500"
         />
         <mat-card-actions>
             <button

@@ -1,0 +1,26 @@
+$bgColor: #af0624;
+$text: #fff;
+$boxColor: #000;
+$secondColor: #8d4c4c;
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: $secondColor;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
+}
+
+.logout-button {
+  position: fixed;
+  top: 5;
+  right: 2px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-style: solid;
+  border-right-color: $boxColor;
+  border-right-width: 5px;
+}

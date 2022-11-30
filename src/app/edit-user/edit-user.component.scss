@@ -2,8 +2,9 @@ $bgColor: #af0624;
 $text: #fff;
 $boxColor: #000;
 $secondColor: #8d4c4c;
+$confirm: #025408;
 
-.summary-dialog {
+.edit-user-card {
   max-width: 400px;
   margin: auto;
   padding: 25px;
@@ -13,21 +14,32 @@ $secondColor: #8d4c4c;
   border-width: 5px;
 }
 
-.movie-title {
+.edit-user-header {
   display: flex;
   justify-content: center;
+  text-align: center;
   color: $text;
 }
 
-.movie-summary {
+.edit-field {
   color: $text;
 }
 
-.summary-close {
+.edit-user-content {
+  text-align: center;
+}
+
+.update-button {
+  background-color: $confirm;
+  color: $text;
+}
+
+.edit-close {
   background-color: $boxColor;
+  color: $text;
 }
 
-.summary-actions {
+.edit-actions {
   padding-top: 20px;
   display: flex;
   justify-content: space-evenly;

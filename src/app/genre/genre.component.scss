@@ -1,13 +1,16 @@
 $bgColor: #af0624;
 $text: #fff;
 $boxColor: #000;
-$buttonColor: #8d4c4c;
+$secondColor: #8d4c4c;
 
 .genre-dialog {
   max-width: 400px;
   margin: auto;
   padding: 25px;
-  background-color: $buttonColor;
+  background-color: $secondColor;
+  border-style: solid;
+  border-color: $boxColor;
+  border-width: 5px;
 }
 
 .genre-name {
@@ -25,6 +28,7 @@ $buttonColor: #8d4c4c;
 }
 
 .genre-actions {
+  padding-top: 20px;
   display: flex;
   justify-content: space-evenly;
 }
