@@ -31,6 +31,10 @@ ngOnInit(): void {
 }
 
 // This is the function responsible for sending the form inputs to the backend
+/**
+ * @function loginUser
+ * @purpose Sends form inputs for the login dialog to the backend.
+ */
 loginUser(): void {
   this.fetchApiData.userLogin(this.userData).subscribe(
     (result) => {

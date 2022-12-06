@@ -24,6 +24,11 @@ export class ProfileComponent implements OnInit {
     this.getUser();
   }
 
+  /**
+   * @function getUser
+   * @purpose Gets user information from backend via API call.
+   * @returns User object.
+   */
   getUser(): void {
     this.fetchApiData.getUser().subscribe((resp: any) => {
         this.user = resp;
@@ -32,23 +37,31 @@ export class ProfileComponent implements OnInit {
       });
     }
 
+  /**
+   * @function openEditUser
+   * @purpose Opens the dialog to edit profile/account information.
+   */
   openEditUser(): void { 
     this.dialog.open(EditUserComponent, {
       width: '450px', 
     });
   }
 
-    deleteAccount(): void {
-      if (confirm('Are you sure you want to permanently delete this account?')) {
-        this.router.navigate(['welcome']).then(() => {
-          this.snackBar.open('Account has successfully been deleted!', 'OK', {
-              duration: 2000,
-            });
-        });
-        this.fetchApiData.deleteUser().subscribe((result) => {
-          console.log(result);
-          localStorage.clear();
-        });
-      }
+  /**
+   * @function deleteAccount
+   * @purpose Deletes account and redirects to the welcome screen upon the confirmation of action.
+   */
+  deleteAccount(): void {
+    if (confirm('Are you sure you want to permanently delete this account?')) {
+      this.router.navigate(['welcome']).then(() => {
+        this.snackBar.open('Account has successfully been deleted!', 'OK', {
+            duration: 2000,
+          });
+      });
+      this.fetchApiData.deleteUser().subscribe((result) => {
+        console.log(result);
+        localStorage.clear();
+      });
     }
+  }
 }
