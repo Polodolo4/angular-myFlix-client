@@ -41,6 +41,10 @@ export class EditUserComponent implements OnInit {
     });
   }
 
+  /**
+   * @function updateUser
+   * @purpose Updates user and returns to welcome screen so user may login with new credentials.
+   */
   updateUser(): void {
     this.fetchApiData.editUser(this.loggedUser).subscribe((result) => {
      console.log(result);
